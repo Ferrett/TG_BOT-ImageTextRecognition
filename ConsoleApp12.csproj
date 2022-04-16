@@ -10,9 +10,12 @@
     <PackageReference Include="Google.Apis.Analytics.v3" Version="1.57.0.1679" />
     <PackageReference Include="Google.Apis.Auth" Version="1.57.0" />
     <PackageReference Include="Google.Cloud.Iam.Credentials.V1" Version="1.2.0" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.7.0" />
     <PackageReference Include="Google.Cloud.Translate.V3" Version="2.4.0" />
     <PackageReference Include="Google.Cloud.Vision.V1" Version="2.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Telegram.Bot" Version="17.0.0" />
+    <PackageReference Include="Telegram.Bot.Extensions.Polling" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
