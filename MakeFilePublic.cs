@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-    using Google.Apis.Storage.v1.Data;
-    using Google.Cloud.Storage.V1;
+﻿using System.Collections.Generic;
+using Google.Apis.Storage.v1.Data;
+using Google.Cloud.Storage.V1;
 
 namespace ConsoleApp12
 {
-
-    public static class MakePublic
+    public static class MakeFilePublic
     {
-        public static string MakePublicFile(string bucketName,string objectName )
+        public static string MakePublic(string bucketName,string objectName )
         {
             var storage = StorageClient.Create();
             var storageObject = storage.GetObject(bucketName, objectName);
